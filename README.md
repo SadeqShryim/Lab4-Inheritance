@@ -15,24 +15,10 @@ add a class shopping cart that has a vector of item pointers add a function rece
 a string receipt showing each item and price, and total price
 
 ------------------------------------------------------------------------------------------------
-class Taxable;
-private:
-  str name
-  int quantity
-  double price 
-public:
 
-class item:
-private:
-  str name
-  int quantity
-  double price 
-public:
-  getname()
-  getquantity();
-  getprice()
-  setQuantity()
-  setPrice()
-  virtualgetTotalPrice()
+Running program:
 
-  
+![image](https://github.com/user-attachments/assets/984f9ba6-7945-4010-a090-6d1ee473c310)
+
+Values that were Given:
+![image](https://github.com/user-attachments/assets/b6da6e1f-6005-4b8a-856a-708469eea050)
