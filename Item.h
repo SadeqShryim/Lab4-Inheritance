@@ -13,11 +13,12 @@ private:
 	string name;
 
 public:
+	void setName(string name);
 	string getName() const;
 	int getQuantity() const;
 	double getPrice() const;
 	void setQuantity(int q);
-	void setPricce(double p);
+	void setPrice(double p);
 
 	virtual double getTotalPrice() const;
 

@@ -2,7 +2,9 @@
 #include <iostream>
 
 using namespace std;
-
+void Item::setName(string name) {
+	this->name = name;
+}
 string Item::getName() const {
 	return name;
 }
@@ -19,7 +21,7 @@ void Item::setQuantity(int quantity) {
 	this->quantity = quantity;
 }
 
-void Item::setPricce(double price) {
+void Item::setPrice(double price) {
 	this->price = price;
 }
 

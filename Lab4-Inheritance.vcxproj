@@ -129,6 +129,8 @@
   <ItemGroup>
     <ClCompile Include="item.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PerishableItem.cpp" />
+    <ClCompile Include="ShoppingCart.cpp" />
     <ClCompile Include="TaxableItem.cpp" />
   </ItemGroup>
   <ItemGroup>
