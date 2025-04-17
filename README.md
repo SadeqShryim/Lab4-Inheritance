@@ -10,11 +10,10 @@ the tax
 
 Create a class PerishableItem that includes an attribute for expiration date if the current 
 date is after the expiration date, the total price is 0
-
 ( don't overthink the date math too hard, use the standard library ) 
-
 add a class shopping cart that has a vector of item pointers add a function receipt that returns 
 a string receipt showing each item and price, and total price
+
 ------------------------------------------------------------------------------------------------
 class Taxable;
 private:
