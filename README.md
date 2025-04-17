@@ -16,3 +16,24 @@ date is after the expiration date, the total price is 0
 add a class shopping cart that has a vector of item pointers add a function receipt that returns 
 a string receipt showing each item and price, and total price
 ------------------------------------------------------------------------------------------------
+class Taxable;
+private:
+  str name
+  int quantity
+  double price 
+public:
+
+class item:
+private:
+  str name
+  int quantity
+  double price 
+public:
+  getname()
+  getquantity();
+  getprice()
+  setQuantity()
+  setPrice()
+  virtualgetTotalPrice()
+
+  
